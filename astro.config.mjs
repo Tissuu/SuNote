@@ -28,7 +28,11 @@ export default defineConfig({
   },
   vite: {
     // Using Tailwind CSS v4 with @tailwindcss/vite
-    plugins: [tailwindcss()]
+    plugins: [tailwindcss()],
+    server: {
+      allowedHosts: true,    
+      host: '0.0.0.0'       
+    }
   },
   integrations: [
     mdx(),

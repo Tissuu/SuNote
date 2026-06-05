@@ -67,11 +67,11 @@
   
   /* Feature image */
   .feature-image {
-    @apply aspect-video rounded-lg overflow-hidden;
+    @apply flex justify-center aspect-video rounded-lg overflow-hidden;
   }
   
   .feature-image img {
-    @apply w-full h-full object-cover;
+    @apply w-[90%] h-full object-cover;
   }
   
   /* Content container */
@@ -255,16 +255,24 @@
   
   /* Preformatted text */
   pre {
-    @apply font-mono bg-gray-100 p-4 rounded-md overflow-x-auto text-sm my-6 border border-gray-200;
+    @apply font-mono bg-gray-100 dark:bg-gray-900 p-4 rounded-md overflow-x-auto text-sm my-6 border border-gray-200 dark:border-gray-700 text-gray-900 dark:text-gray-100;
   }
   
   /* Code blocks */
   code {
-    @apply font-mono text-sm bg-gray-100 px-1.5 py-0.5 rounded text-gray-800 border border-gray-200;
+    @apply font-mono text-sm bg-gray-100 dark:bg-gray-800 px-1.5 py-0.5 rounded text-gray-800 dark:text-gray-100 border border-gray-200 dark:border-gray-700;
   }
   
   pre code {
-    @apply p-0 border-0 bg-transparent;
+    @apply p-0 border-0 bg-transparent text-inherit;
+  }
+
+  pre code span {
+    @apply dark:text-gray-100;
+  }
+
+  .dark pre code span {
+    color: #f3f4f6 !important;
   }
   
   /* Lists */
