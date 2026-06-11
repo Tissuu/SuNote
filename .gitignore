@@ -27,3 +27,12 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+# OpenCode
+.opencode/
+
+# Agents
+.agents/
+# 系統檔案
+.DS_Store
+Thumbs.db
+tmp/

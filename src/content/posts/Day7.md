@@ -1,14 +1,14 @@
 ---
-title: Day7
+title: Day7 I will be back
 date: 2023-08-16
 excerpt: AI概論及實作
-image: /images/image1.png
+image: /images/Day7.jpg
 tags: [Language Model, Artificial Intelligence, AI agent, token, n8n  ]
 ---
 
 
 ## 電影裡的 AI 或許會成真?! ----前言
-大家應該都有看過 Will Smith 主演的機械公敵，或是阿諾史瓦辛格主演的魔鬼終結者。  
+大家應該都有看過威爾史密斯主演的機械公敵，或是阿諾史瓦辛格主演的魔鬼終結者。  
 電影裡的故事常常描述著一個橫跨全世界的人工智慧，威脅人類文明的未來，最後展開全面戰爭。  
 這類故事圍繞著一個很重要的核心問題，那就是機器到底有沒有自我意識，甚至會不會有感情。
 

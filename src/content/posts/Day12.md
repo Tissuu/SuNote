@@ -1,11 +1,25 @@
 ---
-title: Day12 
-date: 2026-05-27
-excerpt: 終於初次見面的Vue.js 
-image: /images/image12.png
-tags: [Language Model, Artificial Intelligence, AI agent, token, n8n  ]
+title: Day12 有人說下雨是老天爺在尿尿
+date: 2026-06-10
+excerpt: 建立基本後端程式
+image: /images/Day12.jpg
+tags: [ Artificial Intelligence, AI agent, token, n8n  ]
 ---
 
+最近一直下雨感覺也已經連下快三個禮拜了，每天也是持續的學習和專案同步並行，也會盡量一個禮拜空一天可以練球。
+老實說如果沒有金錢焦慮的話，其實我還蠻喜歡現在的生活節奏，每天持續學習同時也能保持自己的生活節奏，跟以往的的生活比或許這樣更能細水長流一點。
 
-#
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -7,6 +7,7 @@ import { optimizeImagePath } from '../utils/optimizeImagePath';
 const { frontmatter, headings, prevPost, nextPost } = Astro.props;
 const { title, date, tags, image, excerpt } = frontmatter;
 const slug = Astro.url.pathname.split('/').filter(Boolean).pop();
+const isDay7 = slug?.toLowerCase() === 'day7';
 
 // Ensure image path is optimized
 const optimizedImagePath = image ? optimizeImagePath(image) : null;
@@ -57,7 +58,8 @@ const publishDate = new Date(date);
         <img
           src={optimizedImagePath}
           alt={`Featured image for "${title}"`}
-          class="w-[90%] h-full object-cover mx-auto"
+          class="w-[90%] h-full object-contain mx-auto"
+          style={isDay7 ? 'width: 100%; object-fit: contain; background-color: #000;' : undefined}
           loading="eager"
           decoding="async"
           width="1200"

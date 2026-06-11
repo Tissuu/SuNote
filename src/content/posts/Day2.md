@@ -2,7 +2,7 @@
 title: Day2 我愛程式碼程式是我爸
 date: 2026-05-19
 excerpt: 陣列操作（filter、展開運算子）、時間換算（Math.floor、取餘數、padStart）
-image: /images/image4.png
+image: /images/image1.png
 tags: [filter(), 展開運算子, Math.floor(), padStart(), String(), 樣板字面字串, ]
 ---
 
